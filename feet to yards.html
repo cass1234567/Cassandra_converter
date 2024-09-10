@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feet to Yards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <table borders="2" cellpadding="10" cellspacing="0">
+   <div>
+    <form>
+        <h1> CONVERTER </h1>
+        <header>
+            <label for="feet">FEET:</label>
+            <input type="text" id="feet" name="feet" required minlength="5" maxlength="8" size="10">
+            <label for="feet">YARDS:</label>
+            <input type="text" id="yards" name="yards" disabled size="10">
+ 
+            
+            <input type="button" onclick="convertFeetToYards()">CONVERT</button>
+            <button type="reset">CLEAR</button>
+        <p> 1 feet = 0.333333 yards</p>
+        <p> PROGRAMMED BY: CASSANDRA CRUCILLO </p>
+        
+        </header> 
+        <script src="script.js"></script>
+    </form>    
+</div>
+</table>
+</body>
